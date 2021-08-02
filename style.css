@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+
+* {
+font-family:'Barlow',sans-serif;
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+h1, h2, h3 {
+    font-family:'Fraunces',serif;
+    color:hsl(212, 27%, 19%);
+}
+
+p {
+    font-size:18px;
+    color:hsl(210, 4%, 67%);
+}
+
+nav {
+    padding:30px;
+    background-color:rgb(146, 146, 255);
+    display:flex;
+    justify-content:space-between;
+}
+
+nav ul {
+    color:white;
+    display:flex;
+}
+
+nav ul li {
+    margin-right:10px;
+    list-style:none;
+}
+
+header {
+    background-image: url(images/);
+}
