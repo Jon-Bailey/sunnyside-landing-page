@@ -19,6 +19,10 @@ h1 {
     letter-spacing:4px;
 }
 
+h2 {
+    font-weight:900;
+}
+
 p {
     font-size:18px;
     color:hsl(210, 4%, 67%);
@@ -37,6 +41,7 @@ nav {
     display:flex;
     justify-content:space-between;
     margin-bottom:3%;
+    align-items:center;
 }
 
 nav ul {
@@ -45,7 +50,7 @@ nav ul {
 }
 
 nav ul li {
-    margin-right:10px;
+    margin-right:2rem;
     list-style:none;
 }
 
@@ -69,4 +74,24 @@ header {
 
 #arrow-div img {
     height:150px;
+}
+
+#graphic-design {
+    color:hsl(198, 62%, 26%);
+}
+
+#photography {
+    color:hsl(198, 62%, 26%);
+}
+
+footer {
+    color:hsl(168, 34%, 41%);
+}
+
+#contact {
+    background-color:white;
+    border:none;
+    border-radius:25px;
+    font-family:'Fraunces',serif;
+    padding:10px 17px 10px 17px;
 }
