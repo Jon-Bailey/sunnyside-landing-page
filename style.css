@@ -12,16 +12,31 @@ h1, h2, h3 {
     color:hsl(212, 27%, 19%);
 }
 
+h1 {
+    text-align:center;
+    color:white;
+    font-size:4rem;
+    letter-spacing:4px;
+}
+
 p {
     font-size:18px;
     color:hsl(210, 4%, 67%);
 }
 
+a:hover {
+    cursor:pointer;
+}
+
+button {
+    cursor:pointer;
+}
+
 nav {
     padding:30px;
-    background-color:rgb(146, 146, 255);
     display:flex;
     justify-content:space-between;
+    margin-bottom:3%;
 }
 
 nav ul {
@@ -35,5 +50,23 @@ nav ul li {
 }
 
 header {
-    background-image: url(images/);
+    background-image: url(images/desktop/image-header.jpg);
+    background-repeat:no-repeat;
+    background-position-y:70%;
+    background-size:100%;
+    width:100%;
+    height:80vh
+}
+
+#arrow-div {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+    width:100vw;
+    height:40%;
+}
+
+#arrow-div img {
+    height:150px;
 }
